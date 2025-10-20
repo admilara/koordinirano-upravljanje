@@ -2,6 +2,7 @@
 title: 'Home'
 date: 2023-10-24
 type: landing
+active: false
 
 design:
   # Default section spacing
