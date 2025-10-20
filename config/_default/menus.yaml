@@ -2,21 +2,21 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: /
-    weight: 10
-  - name: Documentation
+#  - name: Home
+#    url: /
+#    weight: 10
+  - name: Dokumentacija
     url: docs/
     weight: 20
   - name: Blog
     url: blog/
     weight: 30
-  - name: Showcase
-    url: showcase/
-    weight: 40
-  - name: Community
-    url: community/
-    weight: 50
+#  - name: Showcase
+#    url: showcase/
+#    weight: 40
+#  - name: Community
+#    url: community/
+#    weight: 50
 
 sidebar:
   - identifier: more
