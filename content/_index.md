@@ -15,7 +15,7 @@ sections:
       text: Odabrane sekcije studije dokumentirane su na ovoj Github stranici.
       primary_action:
         text: Dokumentacija!
-        url: /docs/
+        url: /koordinirano-upravljanje/docs/
         icon: rocket-launch
       secondary_action:
         text: Dodati :)
