@@ -37,10 +37,11 @@ ukupna priključna snaga izvora [kWh].
 
 Raspodjele po distribucijskim područjima za broj priključenih izvora i kumulativne MW prikazane su na dijagramima ispod.
 
-![Raspodjela proizvođača po distribucijskim područjima](broj-proizvodaca-po-dp.svg "Raspodjela proizvođača po distribucijskim područjima")
+![Raspodjela proizvođača po distribucijskim područjima](broj-proizvodaca-po-dp.svg)
+
+![Raspodjela sumarne priključne snage po distribucijskim područjima](snaga-po-dp.svg)
+
+![Raspodjela sumarne priključne po distribucijskim područjima - pie chart](pie-chart-snage-po-dp.svg)
 
 
-- slika 2
 
-
-- slika 3
