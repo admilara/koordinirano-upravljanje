@@ -43,7 +43,7 @@ Konačno je tablica korištena za geokodiranje izgledala kao na slici dolje.
 Na slikama ispod prikazane su geografske raspodjele svih proizvođača unutar nekog
 distribucijskog područja te 110 kV stanice koje su uzete u obzir prilikom povezivanja.
 
-<iframe src="{{ "plots/bubble_snaga_4001.html" | relURL }}" width="100%" height="150" style="border:0"></iframe>
+<iframe src="{{ "bubble_snaga_4001.html" | relURL }}" width="100%" height="150" style="border:0"></iframe>
 
 
 
