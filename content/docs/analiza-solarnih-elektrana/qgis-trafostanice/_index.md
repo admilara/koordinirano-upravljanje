@@ -32,7 +32,7 @@ kao mogućnost za povezivanje proizvođača i stanice u oba DP-a.
 Iz tablice je vidljivo i da je iz QGIS-a dostupan podatak i o geografskoj širini i 
 dužini u koordinatnom sustavu EPSG: 4326 - WGS 84. Odabran je taj sustav umjesto EPSG: 3765 HTRS96/TM
 kako bi se kasnije bez transformacija lakše povezao s koordinatama pojedinačnih proizvođača, čije će se koordinate
-izvući koristeći Google Maps sustav pozicioniranja. 
+izvući koristeći Google Maps sustav pozicioniranja (objašnjeno u sljedećoj točki dokumentacije). 
 
 |busNumber|busName |baseVoltage|typeCode|substationName|DP  |DP2|longitude  |latitude   |
 |---------|--------|:---------:|:------:|:------------:|:--:|---|:---------:|:---------:|
@@ -48,8 +48,6 @@ izvući koristeći Google Maps sustav pozicioniranja.
 |70007    |HBOTIN52|110        |1       |BOTINEC       |4001|   |15.95377011|45.76435621|
 |60008    |HBRINJ2 |220        |2       |BRINJE        |4019|   |15.10508422|44.99309905|
 
-
-
-
 Navedena karta povezana je s dokumentom [Informacija o mogućnosti priključenja](https://www.hep.hr/ods/UserDocsImages/dokumenti/Pristup_mrezi/Info%20o%20mogucnostima%20prikljucenja/Hosting_Capacity_final10_2025_PrilogIiII.pdf).
+te Desetogodišnjim planom HEP ODS-a [10g plan]().
 
