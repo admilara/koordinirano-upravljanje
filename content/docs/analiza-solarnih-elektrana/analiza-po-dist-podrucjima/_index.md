@@ -8,7 +8,7 @@ sidebar:
 Prvi korak u obradi dostavljene excel datoteke je podjela na 21 datoteku kako 
 bi se mogle raditi zasebne analize po distribucijskim područjima. U tablici 
 ispod nalaze se sumarne karakteristike po DP: broj priključenih izvora te 
-ukupna priključna snaga izvora /[kWh/].
+ukupna priključna snaga izvora [kWh].
 
 | Distributivno područje (DP)    | Broj priključenih izvora | Not null  | Ukupna instalirana snaga izvora [kW] |
 | ------------------------------ | ------------------------ | --------- | ------------------------------------ |
@@ -33,7 +33,6 @@ ukupna priključna snaga izvora /[kWh/].
 | 4019 – Elektrolika Gospić      | 313                      | 313       | 18187,05                             |
 | 4020 – Elektra Virovitica      | 410                      | 410       | 49398,38                             |
 | 4021 – Elektra Požega          | 347                      | 347       | 10323,93                             |
-| ------------------------------ | ------------------------ | --------- | ------------------------------------ |
 |                                | **29490**                | **29447** | **1290.85** **MW**                   |
 
 Raspodjele po distribucijskim područjima za broj priključenih izvora i kumulativne MW prikazane su na dijagramima ispod.
