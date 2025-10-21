@@ -5,10 +5,19 @@ sidebar:
   open: true
 ---
 
+#### Proizvodaci_300425_V2.xlsx
+
+{{% steps %}}
+
+### Korak 1
+
 Prvi korak u obradi dostavljene excel datoteke je podjela na 21 datoteku kako 
 bi se mogle raditi zasebne analize po distribucijskim područjima. U tablici 
 ispod nalaze se sumarne karakteristike po DP: broj priključenih izvora te 
 ukupna priključna snaga izvora [kWh].
+
+{{% /steps %}}
+
 
 | Distributivno područje (DP)    | Broj priključenih izvora | Not null  | Ukupna instalirana snaga izvora [kW] |
 | ------------------------------ | :----------------------: | :-------: | :----------------------------------: |
@@ -43,5 +52,9 @@ Raspodjele po distribucijskim područjima za broj priključenih izvora i kumulat
 
 ![Raspodjela sumarne priključne po distribucijskim područjima - pie chart](pie-chart-snage-po-dp.svg)
 
+#### Glavne podloge i korištene skripte (dopuniti)
 
+- analysis.py
+- Proizvođači_30042025_v2.XLSX
+ 
 
