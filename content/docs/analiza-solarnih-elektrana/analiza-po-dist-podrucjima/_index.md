@@ -11,7 +11,7 @@ ispod nalaze se sumarne karakteristike po DP: broj priključenih izvora te
 ukupna priključna snaga izvora [kWh].
 
 | Distributivno područje (DP)    | Broj priključenih izvora | Not null  | Ukupna instalirana snaga izvora [kW] |
-| ------------------------------ | ------------------------ | --------- | ------------------------------------ |
+| ------------------------------ | ------------------------ | --------- | :----------------------------------: |
 | 4001 – Elektra Zagreb          | 5049                     | 5043      | 137945,49                            |
 | 4002 – Elektra Zabok           | 1080                     | 1077      | 31838,22                             |
 | 4003 – Elektra Varaždin        | 1635                     | 1630      | 72543,31                             |
@@ -37,7 +37,7 @@ ukupna priključna snaga izvora [kWh].
 
 Raspodjele po distribucijskim područjima za broj priključenih izvora i kumulativne MW prikazane su na dijagramima ispod.
 
-- slika 1
+![Raspodjela proizvođača po distribucijskim područjima](Broj proizvodaca po DP.html "Raspodjela proizvođača po distribucijskim područjima")
 
 
 - slika 2
