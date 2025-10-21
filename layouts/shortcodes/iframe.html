@@ -1,0 +1,7 @@
+<iframe
+  src='{{ (.Get "src") | relURL }}'
+  width='{{ .Get "width" | default "100%" }}'
+  height='{{ .Get "height" | default "650" }}'
+  style='{{ .Get "style" | default "border:0" }}'
+  loading='lazy'
+></iframe>

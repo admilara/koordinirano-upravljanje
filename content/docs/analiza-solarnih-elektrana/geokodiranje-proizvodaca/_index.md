@@ -34,16 +34,13 @@ se pojavili problemi kod naselja koja dijele isto ime u više županija ili kod 
 Kako bi se smanjila mogućnost pogrešnog lociranja, u procesu geokodiranja korištena je i informacija o 
 županiji kako bi se dodatno suzilo područje pretrage. Podatak o županiji izvučen je iz poštanskog broja.
 Svaka adresa bila je u obliku:
-- [Ulica],[Kućni broj i dodatak],[Naziv naselja],[Poštanski broj],[Županija], Hrvatska
+- [Ulica], [Kućni broj i dodatak], [Naziv naselja], [Poštanski broj], [Županija], Hrvatska
 
 Konačno je tablica korištena za geokodiranje izgledala kao na slici dolje.
 
 ![Primjer adresa iz nadpgrađene excel datoteke](nadogradena-adresa-excel.png)
 
-Na slikama ispod prikazane su geografske raspodjele svih proizvođača unutar nekog
-distribucijskog područja te 110 kV stanice koje su uzete u obzir prilikom povezivanja.
+Na slikama na podstranici prikazane su geografske raspodjele svih proizvođača unutar nekog
+distribucijskog područja te 110 kV stanice koje su uzete u obzir prilikom povezivanja. (Primjer jednog dolje.)
 
-<iframe src="{{ "bubble_snaga_4001.html" | relURL }}" width="100%" height="150" style="border:0"></iframe>
-
-
-
+{{< iframe src="plots/geokodiranje/bubble_snaga_4001.html" height="600" >}}
