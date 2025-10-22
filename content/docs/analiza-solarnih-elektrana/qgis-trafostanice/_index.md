@@ -1,5 +1,5 @@
 ---
-title: Pregled prijenosne mreže HOPS-a u QGIS-u 
+title: 2. Pregled prijenosne mreže HOPS-a u QGIS-u 
 weight: 2
 sidebar:
   open: true
@@ -8,31 +8,31 @@ sidebar:
 #### QGIS podatci 
 
 Nakon jednostavnog pregleda stanja potrebno je napraviti povezivanje svih 
-proizvođača po 110 kV trafostanicama, za što su korišteni razni izvori podataka, 
-uključujući i dostavljene PSS/E datoteke, QGIS te javno dostupne prethodno 
+proizvoƒëaƒça po 110 kV trafostanicama, za ≈°to su kori≈°teni razni izvori podataka, 
+ukljuƒçujuƒái i dostavljene PSS/E datoteke, QGIS te javno dostupne prethodno 
 preuzete podatke HOPS-a iz Sustava katastra infrastrukture.
 
-S obzirom da se u 110 kV prijenosnoj mreži nalazi velik broj 110 kV čvorišta 
-koja su samo za priključenje raznih proizvođača, čvorištima je dodjeljena informacija
-o pripadajućem distribucijskom području, prema 10G planu HEP ODS-a. 
+S obzirom da se u 110 kV prijenosnoj mre≈æi nalazi velik broj 110 kV ƒçvori≈°ta 
+koja su samo za prikljuƒçenje raznih proizvoƒëaƒça, ƒçvori≈°tima je dodjeljena informacija
+o pripadajuƒáem distribucijskom podruƒçju, prema 10G planu HEP ODS-a. 
 
 Iz QGIS-a, shapefile 110 kV stanica eksportiran je kao geojson format.
 
 ![QGIS karta s lokacijama 110 kV stanica](110kv-stanice-qgis.png)
 
-[1] Korišteni izvor: Sustav katastra infrastrukture - WPS 400,220,110 kV mreža
+[1] Kori≈°teni izvor: Sustav katastra infrastrukture - WPS 400,220,110 kV mre≈æa
 
 <hr>
 
-U tablici ispod dan je isječak iz konačnog .csv dokumenta (skripta geojson-to-csv.py).
-Prema podatcima HEP ODS-a, svakoj 110 kV trafostanici pridruženo je distribucijsko područje koje stanica napaja.
-KTE Jertovec napaja potrošače u dva distribucijska područja - područje Elektre Zagreb i Elektre Zabok te je dodana
-kao mogućnost za povezivanje proizvođača i stanice u oba DP-a.
+U tablici ispod dan je isjeƒçak iz konaƒçnog .csv dokumenta (skripta geojson-to-csv.py).
+Prema podatcima HEP ODS-a, svakoj 110 kV trafostanici pridru≈æeno je distribucijsko podruƒçje koje stanica napaja.
+KTE Jertovec napaja potro≈°aƒçe u dva distribucijska podruƒçja - podruƒçje Elektre Zagreb i Elektre Zabok te je dodana
+kao moguƒánost za povezivanje proizvoƒëaƒça i stanice u oba DP-a.
 
-Iz tablice je vidljivo i da je iz QGIS-a dostupan podatak i o geografskoj širini i 
-dužini u koordinatnom sustavu EPSG: 4326 - WGS 84. Odabran je taj sustav umjesto EPSG: 3765 HTRS96/TM
-kako bi se kasnije bez transformacija lakše povezao s koordinatama pojedinačnih proizvođača, čije će se koordinate
-izvući koristeći Google Maps sustav pozicioniranja (objašnjeno u sljedećoj točki dokumentacije). 
+Iz tablice je vidljivo i da je iz QGIS-a dostupan podatak i o geografskoj ≈°irini i 
+du≈æini u koordinatnom sustavu EPSG: 4326 - WGS 84. Odabran je taj sustav umjesto EPSG: 3765 HTRS96/TM
+kako bi se kasnije bez transformacija lak≈°e povezao s koordinatama pojedinaƒçnih proizvoƒëaƒça, ƒçije ƒáe se koordinate
+izvuƒái koristeƒái Google Maps sustav pozicioniranja (obja≈°njeno u sljedeƒáoj toƒçki dokumentacije). 
 
 |busNumber|busName |baseVoltage|typeCode|substationName|DP  |DP2|longitude  |latitude   |
 |---------|--------|:---------:|:------:|:------------:|:--:|---|:---------:|:---------:|
@@ -48,6 +48,6 @@ izvući koristeći Google Maps sustav pozicioniranja (objašnjeno u sljedećoj t
 |70007    |HBOTIN52|110        |1       |BOTINEC       |4001|   |15.95377011|45.76435621|
 |60008    |HBRINJ2 |220        |2       |BRINJE        |4019|   |15.10508422|44.99309905|
 
-Navedena karta povezana je s dokumentom [Informacija o mogućnosti priključenja](https://www.hep.hr/ods/UserDocsImages/dokumenti/Pristup_mrezi/Info%20o%20mogucnostima%20prikljucenja/Hosting_Capacity_final10_2025_PrilogIiII.pdf).
-te Desetogodišnjim planom HEP ODS-a [10g plan]().
+Navedena karta povezana je s dokumentom [Informacija o moguƒánosti prikljuƒçenja](https://www.hep.hr/ods/UserDocsImages/dokumenti/Pristup_mrezi/Info%20o%20mogucnostima%20prikljucenja/Hosting_Capacity_final10_2025_PrilogIiII.pdf).
+te Desetogodi≈°njim planom HEP ODS-a [10g plan]().
 

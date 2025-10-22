@@ -1,5 +1,5 @@
 ---
-title: Geokodiranje proizvođača 
+title: 3. Geokodiranje proizvođača 
 weight: 3
 sidebar:
   open: true

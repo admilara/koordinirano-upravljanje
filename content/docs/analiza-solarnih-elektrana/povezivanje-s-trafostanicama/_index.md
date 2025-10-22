@@ -1,5 +1,5 @@
 ---
-title: Povezivanje sa 110 kV trafostanicama 
+title: 4. Povezivanje sa 110 kV trafostanicama 
 weight: 4
 sidebar:
   open: true

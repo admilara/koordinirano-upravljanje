@@ -1,5 +1,5 @@
 ---
-title: Analiza po distribucijskim područjima 
+title: 1. Analiza po distribucijskim područjima 
 weight: 1
 sidebar:
   open: true
