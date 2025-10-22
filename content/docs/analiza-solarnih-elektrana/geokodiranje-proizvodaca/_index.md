@@ -40,7 +40,14 @@ Konačno je tablica korištena za geokodiranje izgledala kao na slici dolje.
 
 ![Primjer adresa iz nadpgrađene excel datoteke](nadogradena-adresa-excel.png)
 
-Na slikama na podstranici prikazane su geografske raspodjele svih proizvođača unutar nekog
+Na slikama na podstranici prikazane su geografske raspodjele proizvođača unutar nekog
 distribucijskog područja te 110 kV stanice koje su uzete u obzir prilikom povezivanja. (Primjer jednog dolje.)
+Primjer jednog DP-a je na slici dolje. S obzirom da dostavljena tablica sadrži sve
+proizvođače bez obzira na snagu (od 1 kW do 9,99 MW), u prikazu je ograničena snaga do 1000 kW zbog bolje vizualizacije.
 
-{{< iframe src="plots/geokodiranje/bubble_snaga_4001.html" height="600" >}}
+{{< iframe src="plots/geokodiranje/bubble_snaga_4001.html" height="400" >}}
+
+[1] Korištena skripta - stats_per_dist_area.py
+[2] Korištena ulazna tablica - Proizvođači_300425_V2.xlsx
+[3] Korišten Google Maps Geocoding API
+[4] Korištena skripta - geocode-google-maps.py
