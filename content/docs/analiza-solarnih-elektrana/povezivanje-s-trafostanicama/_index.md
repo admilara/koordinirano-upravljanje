@@ -62,5 +62,7 @@ i 110/x kV trafostanice kojoj pripada.
 
 
 [1] Korištena skripta za balltree - assign-ts-to-solar.py
+
 [2] Korištena skripta za linestring - geopandas-lines.py
+
 [3] Korištena skripta za lines html - change-plt-to-plotly-linestring-diagrams.py
