@@ -59,6 +59,16 @@ i 110/x kV trafostanice kojoj pripada.
 
 {{< iframe src="plots/linestring/4001_linestring_diag.html" height="400" >}}
 
+S obzirom da su nam za daljnje analize potrebne sumarne vrijednosti po trafostanicama, na slikama ispod
+prikazan je stupčasti dijagram koji prikazuje konačnu raspodjelu distribuirane proizvodnje po grupama područja.
+
+![Distribuirana proizvodnja - grupa područja Sjever](grupa-podrucja-sjever.svg)
+
+![Distribuirana proizvodnja - grupa područja Istok](grupa-podrucja-istok.svg)
+
+![Distribuirana proizvodnja - grupa područja Zapad](grupa-podrucja-zapad.svg)
+
+![Distribuirana proizvodnja - grupa područja Jug](grupa-podrucja-jug.svg)
 
 
 [1] Korištena skripta za balltree - assign-ts-to-solar.py
