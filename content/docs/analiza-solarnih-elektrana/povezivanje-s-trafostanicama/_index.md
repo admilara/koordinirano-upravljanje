@@ -76,3 +76,7 @@ prikazan je stupčasti dijagram koji prikazuje konačnu raspodjelu distribuirane
 [2] Korištena skripta za linestring - geopandas-lines.py
 
 [3] Korištena skripta za lines html - change-plt-to-plotly-linestring-diagrams.py
+
+[4]
+
+
